@@ -1,0 +1,145 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.26.0"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉kata.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:1:7952).
+; Unable to resolve symbol: get-length in this context
+clj꞉kata.core-test꞉> 
+5
+clj꞉kata.core-test꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:11:12).
+; Unable to resolve symbol: get-length in this context
+clj꞉kata.core-test꞉> 
+false
+clj꞉kata.core꞉> 
+true
+clj꞉kata.core꞉> 
+true
+clj꞉kata.core꞉> 
+3
+clj꞉kata.core꞉> 
+true
+clj꞉kata.core꞉> 
+false
+clj꞉kata.core꞉> 
+false
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:18:12).
+; Unable to resolve symbol: wrapper in this context
+clj꞉kata.core-test꞉> 
+".."
+clj꞉kata.core꞉> 
+"..."
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error reading source at (REPL:17:29).
+; Unmatched delimiter: )
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:27:1).
+; Unable to resolve symbol: get-space in this context
+clj꞉kata.core-test꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:31:1).
+; Unable to resolve symbol: get-space in this context
+clj꞉kata.core-test꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:22:1).
+; Unable to resolve symbol: get-space in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:15).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:15).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:15).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+"...."
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:15).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:21:1).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:22:1).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:5).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: sub-string in this context
+clj꞉kata.core꞉> 
+".."
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: substring in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+"...."
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:20:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\src\kata\core.clj:17:3).
+; Unable to resolve symbol: last-index-of in this context
+clj꞉kata.core꞉> 
+; Syntax error compiling at (c:\Users\Alien Ware\Documents\clojure\kata\test\kata\core_test.clj:29:12).
+; Unable to resolve symbol: get-space in this context
+clj꞉kata.core-test꞉> 
